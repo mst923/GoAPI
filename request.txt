@@ -1,8 +1,8 @@
 curl -X POST -H "Content-Type: application/json" -d '{
-  "ProductName": "Adidas Original",
-  "BrandName" : "KENZO",
+  "ProductName": "ガゼル",
+  "BrandName" : "Adidas",
   "ImagePathes": [
-    "a",
-    "k"
+    "https://shop.adidas.jp/photo/HQ/HQ8717/z-HQ8717-standard-side_lateral_center_view-qeEAZ6C0Pr.jpg",
+    "https://z-shopping.c.yimg.jp/279/79740279/79740279b_34_d_500.jpg"
   ]
 }' http://localhost:8080/products
