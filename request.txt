@@ -1,0 +1,8 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+  "ProductName": "Adidas Original",
+  "BrandName" : "KENZO",
+  "ImagePathes": [
+    "a",
+    "k"
+  ]
+}' http://localhost:8080/products
